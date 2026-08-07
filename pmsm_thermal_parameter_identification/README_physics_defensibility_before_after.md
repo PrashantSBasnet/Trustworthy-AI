@@ -400,9 +400,6 @@ The analysis supports several important claims.
 
 # 14. Recommended Research Position
 
-The strongest scientific position is **not** to hide the derivative result.
-
-Instead, explicitly report it.
 
 The paper can say that the study performed a physics-defensibility analysis and discovered that sample-order derivatives do not provide sufficient evidence for a physical transient thermal law.
 
@@ -412,29 +409,10 @@ The contribution becomes:
 
 > Physics-informed learning with empirical validation of the defensibility of each incorporated physical relationship.
 
-That is substantially more rigorous than simply adding physics-inspired features and calling the model physics-informed.
 
 ---
 
-# 15. Recommended Next Experimental Step
-
-If true thermal dynamics are important to the final claim, the strongest next step is to obtain or reconstruct a valid sampling interval.
-
-With a known `Δt`, the derivative can become:
-
-`dT/dt ≈ (T[t] - T[t-1]) / Δt`
-
-Then the research can investigate relationships such as:
-
-`dT/dt ↔ P_copper`
-
-and, more importantly, evaluate whether a thermal balance or reduced-order thermal model provides a better physics constraint.
-
-Until that information is available, the derivative should remain a **sample-order change feature**, not a physical time derivative.
-
----
-
-# 16. Bottom Line
+# 15. Bottom Line
 
 The analysis changes the research from:
 
