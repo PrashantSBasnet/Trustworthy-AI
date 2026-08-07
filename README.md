@@ -1,3 +1,1 @@
-
-The data source used is available here:
-/kaggle/input/datasets/wkirgsn/electric-motor-temperature
+> **Source Data:** [Electric Motor Temperature Dataset](https://kaggle.com) by wkirgsn on Kaggle.
