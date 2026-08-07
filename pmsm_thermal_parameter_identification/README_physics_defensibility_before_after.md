@@ -6,7 +6,7 @@ This document records how the physics analysis changed the interpretation of the
 
 ---
 
-## 1. Executive Finding
+## 1. Finding
 
 The derivative analysis **does not invalidate the physics-informed research**. Instead, it identifies an important limitation in the current dataset representation:
 
@@ -273,12 +273,9 @@ This is too strong given the available temporal information.
 
 ## AFTER
 
-A more defensible framing is:
-
 > A physics-informed multi-domain deep learning framework for PMSM electro-thermal state prediction that integrates electrical, mechanical, thermal, and physically motivated loss constraints into CNN, LSTM, Transformer, and CNN-ViT architectures.
 
-The novelty can then focus on:
-
+Focus:
 1. **Multi-domain physics integration**
 2. **Physics-informed multi-output thermal prediction**
 3. **Comparison of temporal, convolutional, attention-based, and hybrid architectures under the same physics framework**
@@ -451,4 +448,3 @@ The core mathematics and CNN-ViT architecture can remain.
 
 The main change is the **physics interpretation and the formulation/weighting of the physics loss**.
 
-This makes the research claim narrower, but considerably more defensible.
